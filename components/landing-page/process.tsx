@@ -9,21 +9,21 @@ gsap.registerPlugin(ScrollTrigger)
 const steps = [
   {
     number: '01',
-    title: 'Discovery & Audit',
+    title: 'Connect & Import',
     description:
-      'I start with a deep-dive into your business: your Google Ads account, website analytics, competitive landscape, and marketing funnel. I identify exactly where you are leaving money on the table and where the biggest opportunities lie.',
+      'Sign up with Google and import your existing businesses from Google Business Profile, or create new ones manually. We automatically sync your reviews, Q&A, photos, and business data into the MyAdsGuru dashboard.',
   },
   {
     number: '02',
-    title: 'Strategy & Launch',
+    title: 'Manage & Create',
     description:
-      'Based on the audit findings, I build a comprehensive strategy covering campaign architecture, keyword targeting, ad creative, landing page recommendations, and tracking setup. Then we launch with precision and purpose.',
+      'Use the dashboard to manage your business profiles, create AI-powered posts, schedule content on the calendar, and respond to customer reviews. Purchase citation building, GMB optimization, or conversion tracking services from the built-in marketplace.',
   },
   {
     number: '03',
-    title: 'Optimize & Scale',
+    title: 'Grow & Optimize',
     description:
-      'This is where the real magic happens. I continuously optimize your campaigns using data-driven decisions -- adjusting bids, refining audiences, testing creatives, and scaling what works. You get clear, jargon-free reporting focused on revenue metrics.',
+      'As your consultant, I work alongside the platform to optimize your strategy. Whether it is improving your local SEO rankings, refining your Google Ads campaigns, or scaling across multiple locations — you get hands-on support plus the tools to manage it all.',
   },
 ]
 
@@ -105,7 +105,7 @@ export default function Process() {
             How It Works
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            My Process
+            How It Works
           </h2>
         </div>
 

@@ -14,29 +14,34 @@ gsap.registerPlugin(ScrollTrigger)
 
 const faqs = [
   {
-    question: 'What services do you offer?',
+    question: 'What is MyAdsGuru?',
     answer:
-      'I specialize in Google Ads management (Search, Display, YouTube, Performance Max), SEO and content strategy, and marketing automation. I also provide strategic consulting on CRM integrations, landing page optimization, and full-funnel marketing strategy. For anything outside my core expertise, I have a network of trusted specialists I can bring in.',
+      'MyAdsGuru combines hands-on consulting from Himamshu Batra with a powerful SaaS platform. You get access to a dashboard where you can manage your Google Business Profiles, create AI-powered posts, track reviews and Q&A, schedule content, and purchase marketing services like citation building and GMB optimization — all in one place.',
   },
   {
-    question: 'How does your pricing work?',
+    question: 'How much does the platform cost?',
     answer:
-      'I offer two pricing models: a flat monthly retainer, or a hybrid model with a smaller retainer plus a performance-based component tied to results. All engagements are month-to-month with no long-term contracts required. I am confident in the value I deliver, so I let the results speak for themselves.',
+      'The Freelancer plan starts at $6.99/month or $75/year. This gives you full access to Google Business Profile management, AI-powered post creation, review management, calendar scheduling, and the service marketplace. Enterprise plans with custom pricing are available for agencies and larger teams managing multiple locations.',
   },
   {
-    question: 'What does your process look like?',
+    question: 'What services can I purchase in the marketplace?',
     answer:
-      'It starts with a comprehensive audit of your current marketing efforts, followed by a strategic plan. Once aligned, I handle everything from campaign setup and launch to continuous optimization and reporting. You will receive clear, jargon-free reports focused on the metrics that matter: leads, revenue, and ROI -- not vanity metrics.',
+      'The platform offers three core services: Local Citation Building ($199-$499) for consistent business listings across 50+ countries, GMB Optimization ($99-$399) for improving your Google Business Profile and local rankings, and Enhanced Conversion Tracking ($549-$4,999) for Google Tag Manager and Facebook Pixel setup.',
   },
   {
-    question: 'How long does it take to see results?',
+    question: 'Can I manage multiple business locations?',
     answer:
-      'Most clients see measurable improvements within the first 30-60 days. However, the timeline varies depending on your industry, competition, existing account history, and budget. Google Ads can deliver quick wins, but sustainable growth typically takes 3-6 months of continuous optimization.',
+      'Yes. You can import all your locations from Google Business Profile with one click, or create businesses manually. Each location gets its own profile with reviews, Q&A, posts, and working hours. The calendar view lets you schedule content across all your businesses.',
   },
   {
-    question: 'What kind of businesses do you work with?',
+    question: 'How does the AI post creation work?',
     answer:
-      'I work with B2B and B2C companies focused on lead generation across industries including SaaS, healthcare, professional services, and technology. My ideal clients are businesses with product-market fit doing $1M+ in revenue or VC-backed startups ready to scale. If you run a pure e-commerce business, I can recommend someone better suited for that.',
+      'When creating a Google Business post, simply click the AI button to generate engaging content automatically. You can create standard updates, events, offers, and alerts. Add media, set a call-to-action, and schedule it for later — or publish immediately. The AI adapts to your business context to produce relevant content.',
+  },
+  {
+    question: 'Do I also get consulting?',
+    answer:
+      'Absolutely. On top of the platform, you get direct access to Himamshu Batra for strategic consulting on Google Ads, local SEO, and full-funnel marketing. Whether you need campaign management, a marketing audit, or growth strategy — the consulting and platform work together to deliver results.',
   },
 ]
 

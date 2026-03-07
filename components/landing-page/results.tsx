@@ -19,35 +19,35 @@ const results = [
     headline: 'Increase in Qualified Leads',
     description:
       'Rebuilt campaign architecture and implemented conversion tracking for a B2B SaaS platform, tripling their qualified lead volume in 4 months.',
-    industry: 'SaaS',
+    industry: 'Google Ads',
   },
   {
-    metric: '60%',
-    headline: 'Reduction in Cost-Per-Acquisition',
+    metric: '50+',
+    headline: 'Countries for Citation Building',
     description:
-      'Overhauled keyword strategy and landing page experience for a professional services firm, cutting CPA by more than half while increasing volume.',
-    industry: 'Professional Services',
+      'Build and maintain accurate business listings across directories worldwide. Consistent NAP data across 50+ countries to improve local SEO rankings and Google Maps visibility.',
+    industry: 'Citation Building',
   },
   {
-    metric: '$2.4M',
-    headline: 'Revenue Generated in Year One',
+    metric: 'AI',
+    headline: 'Powered Google Business Posts',
     description:
-      'Launched a full-funnel Google Ads strategy for a healthcare technology startup, scaling from zero to $2.4M in attributed revenue within 12 months.',
-    industry: 'Healthcare Tech',
+      'Generate engaging post content with one click using AI. Create standard updates, events, offers, and alerts — then schedule them from the built-in calendar to keep your audience engaged.',
+    industry: 'Platform Feature',
   },
   {
     metric: '5.2x',
     headline: 'Return on Ad Spend',
     description:
       'Optimized Performance Max and Search campaigns for an enterprise software company, achieving a 5.2x ROAS across a $150K monthly ad budget.',
-    industry: 'Enterprise Software',
+    industry: 'Google Ads',
   },
   {
-    metric: '10x',
-    headline: 'Scaling Monthly Ad Spend Profitably',
+    metric: '$99',
+    headline: 'GMB Optimization Starting Price',
     description:
-      'Helped a VC-backed startup scale from $5K to $50K monthly ad spend while maintaining profitability through continuous optimization and testing.',
-    industry: 'Startup',
+      'Purchase GMB optimization packages directly from the platform. From basic profile setup to premium optimization with review management and analytics — choose what fits your business.',
+    industry: 'Marketplace',
   },
 ]
 
@@ -89,10 +89,10 @@ export default function Results() {
         {/* Section heading */}
         <div ref={titleRef} className="opacity-0 text-center mb-16 px-6 lg:px-8">
           <p className="text-sm font-medium text-blue-400 uppercase tracking-widest mb-3">
-            Proven Results
+            Results &amp; Capabilities
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            Results That Speak
+            What You Can Achieve
           </h2>
         </div>
 

@@ -3,28 +3,28 @@
 import { useEffect, useRef, useCallback } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Target, Search, Zap } from 'lucide-react'
+import { MapPin, Sparkles, Search } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const services = [
   {
-    icon: Target,
-    title: 'Google Ads Management',
+    icon: MapPin,
+    title: 'Google Business Profile Management',
     description:
-      'Strategic campaign creation, bid optimization, and continuous performance improvement. I manage your entire Google Ads ecosystem -- Search, Display, YouTube, and Performance Max -- to maximize ROI and drive qualified leads.',
+      'Import your businesses from Google or create them manually. Manage profiles, respond to reviews, handle Q&A, update working hours, and keep your business information accurate — all from the MyAdsGuru dashboard.',
+  },
+  {
+    icon: Sparkles,
+    title: 'AI-Powered Post Creation',
+    description:
+      'Create and schedule Google Business posts with AI-generated content. Publish standard updates, events, offers, and alerts. Use the built-in calendar to plan your content and keep customers engaged.',
   },
   {
     icon: Search,
-    title: 'SEO & Content Strategy',
+    title: 'Citation Building & Local SEO',
     description:
-      'Technical SEO audits, keyword research, and content strategy that complements your paid channels. Build long-term organic traffic that reduces your dependency on ad spend while improving your overall digital presence.',
-  },
-  {
-    icon: Zap,
-    title: 'Marketing Automation',
-    description:
-      'Streamline your marketing operations with Zapier, Pipedream, and CRM integrations. I build automated workflows that connect your ad platforms, CRM (HubSpot, Pipedrive, Salesforce), and analytics for a unified growth engine.',
+      'Build and maintain consistent business listings across directories in 50+ countries. Purchase citation building, GMB optimization, and conversion tracking services directly from the platform to boost your local rankings.',
   },
 ]
 
@@ -91,10 +91,10 @@ export default function Services() {
         {/* Section heading */}
         <div ref={titleRef} className="opacity-0 text-center mb-16">
           <p className="text-sm font-medium text-blue-400 uppercase tracking-widest mb-3">
-            Expertise
+            Platform + Consulting
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            What I Do
+            What You Get
           </h2>
         </div>
 

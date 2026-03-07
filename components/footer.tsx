@@ -2,26 +2,11 @@
 
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { Github, Youtube } from 'lucide-react'
-
 const navLinks = [
   { label: 'Services', hash: '#services' },
   { label: 'Process', hash: '#how-i-do-things' },
   { label: 'Results', hash: '#case-studies' },
   { label: 'FAQs', hash: '#faqs' },
-]
-
-const socialLinks = [
-  {
-    label: 'GitHub',
-    href: 'https://github.com/manshu',
-    icon: Github,
-  },
-  {
-    label: 'YouTube',
-    href: 'https://www.youtube.com/@batraio',
-    icon: Youtube,
-  },
 ]
 
 export default function Footer() {
@@ -87,22 +72,6 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
-
-          {/* Social links */}
-          <div className="flex items-center gap-4">
-            {socialLinks.map((social) => (
-              <Link
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-zinc-500 hover:text-white hover:bg-white/10 transition-all duration-200"
-                aria-label={social.label}
-              >
-                <social.icon size={18} />
-              </Link>
-            ))}
-          </div>
 
           {/* Divider */}
           <div className="w-full h-px bg-white/5" />

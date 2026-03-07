@@ -70,7 +70,7 @@ export default function Hero() {
             <div ref={badgeRef} className="opacity-0 mb-6">
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-                Google Ads &amp; Digital Marketing Consultant
+                Google Business Profile &amp; Digital Marketing
               </span>
             </div>
 
@@ -78,18 +78,19 @@ export default function Hero() {
               ref={headlineRef}
               className="opacity-0 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight mb-6"
             >
-              I help businesses turn{' '}
-              <span className="gradient-text">ad spend</span> into revenue
+              I help businesses{' '}
+              <span className="gradient-text">dominate local search</span>
             </h1>
 
             <p
               ref={subtextRef}
               className="opacity-0 text-lg text-zinc-400 leading-relaxed mb-8 max-w-xl"
             >
-              Hey, I&apos;m Himamshu Batra. With 12+ years of experience in
-              systems integration, digital marketing, and automation, I help
-              ambitious businesses achieve profitable growth through Google Ads,
-              SEO, and full-funnel strategy.
+              Hey, I&apos;m Himamshu Batra. I combine hands-on consulting
+              with the MyAdsGuru platform — giving you Google Business Profile
+              management, AI-powered post creation, citation building, and
+              everything you need to grow your local presence. One dashboard,
+              full control.
             </p>
 
             <div ref={ctaRef} className="opacity-0 flex flex-col sm:flex-row gap-4">

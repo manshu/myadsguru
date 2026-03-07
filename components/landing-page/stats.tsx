@@ -8,8 +8,8 @@ gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
   { value: '12+', label: 'Years Experience' },
-  { value: '150+', label: 'Projects Delivered' },
-  { value: '3x', label: 'Average ROAS' },
+  { value: '50+', label: 'Countries Covered' },
+  { value: 'AI', label: 'Powered Posts' },
   { value: '$10M+', label: 'Ad Spend Managed' },
 ]
 

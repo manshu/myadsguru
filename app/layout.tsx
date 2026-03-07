@@ -16,7 +16,7 @@ const sora = Sora({
 export async function generateMetadata(): Promise<Metadata> {
   const title = 'MyAdsGuru'
   const description =
-    'Google Ads & Digital Marketing Consultancy by Himamshu Batra. Scale your business with data-driven ad strategy, SEO, and marketing automation.'
+    'Manage your Google Business Profile, create AI-powered posts, build citations, and grow your local presence. Consulting + platform by Himamshu Batra.'
 
   return {
     metadataBase: new URL('https://myadsguru.com'),

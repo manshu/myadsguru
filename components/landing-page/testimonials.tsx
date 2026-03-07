@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const testimonials = [
   {
     quote:
-      'We struggled with Google Ads for two years and received very few quality leads. Himamshu turned that around in just a month, generating a healthy volume of inbound leads that actually turned into customers. We have now doubled our monthly investment and are excited to keep working with him.',
+      'Himamshu turned our Google Ads around in just a month. But what really sets him apart is the MyAdsGuru platform — we manage all our Google Business Profiles, schedule posts, and track reviews from one place. The combination of his consulting and the platform is unbeatable.',
     name: 'Alex Johnson',
     role: 'CEO & Founder',
     company: 'TechScale',
@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     quote:
-      'Himamshu is an expert at what he does and brings incredible insights and execution to every team he helps. He has made our Google Ads the most profitable and largest revenue-driving stream in our organization.',
+      'The AI post creation feature saves us hours every week. We used to struggle with what to post on our Google Business Profile — now we generate quality content in seconds and schedule it right from the calendar.',
     name: 'Sarah Chen',
     role: 'Marketing Director',
     company: 'GrowthHub',
@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     quote:
-      'He was instrumental in helping us scale our ad spend multiple times over. His strategic insights, coupled with his hands-on approach to campaign management, allowed us to achieve growth that we had never thought possible.',
+      'Managing 12 business locations used to be a nightmare. With MyAdsGuru, we imported everything from Google, and now we handle reviews, Q&A, and posts for all locations in one dashboard. The citation building service boosted our local rankings significantly.',
     name: 'David Park',
     role: 'VP of Marketing',
     company: 'LaunchPad',
@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     quote:
-      'Amazing partner for Google Ads. He helped us scale from thousands of dollars to millions. Himamshu is truly a superstar and 10x better than any other agency we have worked with. His technical expertise combined with marketing savvy is unmatched.',
+      'Himamshu is truly a superstar — 10x better than any agency we have worked with. His hands-on consulting combined with the platform tools means we get strategy and execution in one package. Our Google Ads and local presence have never been stronger.',
     name: 'Michael Rivera',
     role: 'CEO & Founder',
     company: 'ScaleUp Inc.',
@@ -42,7 +42,7 @@ const testimonials = [
   },
   {
     quote:
-      'Working with Himamshu was a game changer for our organization. He not only drove incremental leads for our sales staff but also provided guidance and strategic direction for increasing conversions.',
+      'The citation building service was a game changer. We went from barely showing up in local search to ranking in the top 3 for our key areas. Being able to order it right from the platform and track everything made it seamless.',
     name: 'Rachel Kim',
     role: 'Head of Sales',
     company: 'DataFlow',
@@ -50,7 +50,7 @@ const testimonials = [
   },
   {
     quote:
-      'The results have been even better than we could have imagined. We relaunched Google Ads with him and ended up with a profitable and scalable system in the first year. He does so much more than just paid ads.',
+      'We bought the GMB optimization package and saw results within weeks. The platform lets us see all our reviews, respond quickly, and keep our business info consistent. It does so much more than just ads.',
     name: 'James Wilson',
     role: 'Co-Founder & CEO',
     company: 'NexGen Labs',
