@@ -42,7 +42,7 @@ export default function Footer() {
           <Link href="/">
             <span className="font-display text-xl font-bold text-white tracking-tight">
               MyAds
-              <span className="text-blue-500">Guru</span>
+              <span className="text-blue-500">.Guru</span>
             </span>
           </Link>
 

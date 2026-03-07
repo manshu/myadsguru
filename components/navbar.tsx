@@ -71,7 +71,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <span className="font-display text-xl font-bold text-white tracking-tight">
               MyAds
-              <span className="text-blue-500">Guru</span>
+              <span className="text-blue-500">.Guru</span>
             </span>
           </Link>
 
