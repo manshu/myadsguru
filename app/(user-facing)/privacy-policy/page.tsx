@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'MyAdsGuru privacy policy — how we collect, use, and protect your data.',
+  description: 'My Ads Guru privacy policy — how we collect, use, and protect your data.',
 }
 
 export default function PrivacyPolicy() {
@@ -16,8 +16,8 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">1. Introduction</h2>
             <p>
-              MyAdsGuru ("we", "our", "us") operates the website <strong className="text-zinc-300">www.myads.guru</strong> and
-              the MyAdsGuru platform at <strong className="text-zinc-300">app.myads.guru</strong>. This Privacy Policy explains
+              My Ads Guru ("we", "our", "us") operates the website <strong className="text-zinc-300">www.myads.guru</strong> and
+              the MyAds.Guru platform at <strong className="text-zinc-300">app.myads.guru</strong>. This Privacy Policy explains
               how we collect, use, disclose, and safeguard your information when you use our services.
             </p>
           </div>
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">2. What We Do</h2>
             <p>
-              MyAdsGuru is an AI-powered local marketing platform that helps businesses manage their Google Business
+              My Ads Guru is a subsidiary of Sphnix, Inc. My Ads Guru is an AI-powered local marketing platform that helps businesses manage their Google Business
               Profile, create and schedule posts, respond to reviews, build local citations, and run Google Ads campaigns.
               We connect to your Google account via OAuth to manage your business listings on your behalf.
             </p>
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">4. How We Use Your Information</h2>
             <ul className="list-disc list-inside space-y-2 pl-2">
-              <li>To provide and maintain the MyAdsGuru platform and its features.</li>
+              <li>To provide and maintain the MyAds.Guru platform and its features.</li>
               <li>To manage your Google Business Profile listings, posts, reviews, and Q&A on your behalf.</li>
               <li>To generate AI-powered content for your business posts and marketing materials.</li>
               <li>To manage Google Ads campaigns on your behalf.</li>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">5. Google API Scopes & Data Access</h2>
             <p className="mb-3">
-              MyAdsGuru requests access to your Google account through OAuth 2.0 for the following purposes:
+              My Ads Guru requests access to your Google account through OAuth 2.0 for the following purposes:
             </p>
             <ul className="list-disc list-inside space-y-2 pl-2">
               <li><strong className="text-zinc-300">Google Business Profile API:</strong> To read and manage your business listings, posts, reviews, and Q&A.</li>

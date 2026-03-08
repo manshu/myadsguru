@@ -34,14 +34,14 @@ const faqCategories: FAQCategory[] = [
     label: 'Platform',
     faqs: [
       {
-        question: 'What is MyAdsGuru?',
+        question: 'What is My Ads Guru?',
         answer:
-          'MyAdsGuru is an AI-powered local marketing platform designed specifically for businesses that rely on Google Business Profiles to attract local customers. It combines 18+ AI tools, a GeoGrid rank scanner, automated posting, and competitor intelligence into a single dashboard — all pre-loaded with your actual business data so you get personalized, ready-to-use results.',
+          'My Ads Guru is an AI-powered local marketing platform designed specifically for businesses that rely on Google Business Profiles to attract local customers. It combines 18+ AI tools, a GeoGrid rank scanner, automated posting, and competitor intelligence into a single dashboard — all pre-loaded with your actual business data so you get personalized, ready-to-use results.',
       },
       {
-        question: 'How does MyAdsGuru help local businesses?',
+        question: 'How does My Ads Guru help local businesses?',
         answer:
-          'MyAdsGuru helps local businesses grow by automating the most time-consuming parts of local marketing. From responding to Google reviews in seconds with AI to generating SEO-optimized posts and scanning your Google Maps rankings across your entire service area, every tool is built to save you hours each week while improving your online visibility and reputation.',
+          'My Ads Guru helps local businesses grow by automating the most time-consuming parts of local marketing. From responding to Google reviews in seconds with AI to generating SEO-optimized posts and scanning your Google Maps rankings across your entire service area, every tool is built to save you hours each week while improving your online visibility and reputation.',
       },
       {
         question:
@@ -51,25 +51,25 @@ const faqCategories: FAQCategory[] = [
       },
       {
         question:
-          'How do I connect my Google Business Profile to MyAdsGuru?',
+          'How do I connect my Google Business Profile to MyAds.Guru?',
         answer:
-          'After signing up, simply click "Add Business" on your dashboard and sign in with the Google account that manages your business listing. MyAdsGuru securely imports your profile data — reviews, Q&A, services, categories, and more — so every AI tool already understands your business from the start. The process takes less than a minute.',
+          'After signing up, simply click "Add Business" on your dashboard and sign in with the Google account that manages your business listing. My Ads Guru securely imports your profile data — reviews, Q&A, services, categories, and more — so every AI tool already understands your business from the start. The process takes less than a minute.',
       },
       {
-        question: 'Is MyAdsGuru suitable for multi-location businesses?',
+        question: 'Is My Ads Guru suitable for multi-location businesses?',
         answer:
-          'Yes. MyAdsGuru supports multiple Google Business Profiles under a single account. You can switch between locations, run AI tools for each profile individually, and track GeoGrid rankings for every location. This makes it ideal for franchise owners, agencies, and businesses with several branches.',
+          'Yes. My Ads Guru supports multiple Google Business Profiles under a single account. You can switch between locations, run AI tools for each profile individually, and track GeoGrid rankings for every location. This makes it ideal for franchise owners, agencies, and businesses with several branches.',
       },
       {
-        question: 'Do I need technical skills to use MyAdsGuru?',
+        question: 'Do I need technical skills to use My Ads Guru?',
         answer:
-          'Not at all. MyAdsGuru is designed for business owners, not developers. Every tool has a simple interface — select your business, choose a tool, and get results. There is no coding, no complex configuration, and no learning curve. If you can use email, you can use MyAdsGuru.',
+          'Not at all. My Ads Guru is designed for business owners, not developers. Every tool has a simple interface — select your business, choose a tool, and get results. There is no coding, no complex configuration, and no learning curve. If you can use email, you can use My Ads Guru.',
       },
       {
         question:
-          'How is MyAdsGuru different from other local SEO tools?',
+          'How is My Ads Guru different from other local SEO tools?',
         answer:
-          'Most local SEO tools offer generic templates and require you to manually input your business details every time. MyAdsGuru pre-loads your actual Google Business Profile data into every AI tool, so responses reference your real services, location, and brand voice. Combined with the GeoGrid rank scanner and automated posting, it is an all-in-one platform rather than a collection of disconnected utilities.',
+          'Most local SEO tools offer generic templates and require you to manually input your business details every time. My Ads Guru pre-loads your actual Google Business Profile data into every AI tool, so responses reference your real services, location, and brand voice. Combined with the GeoGrid rank scanner and automated posting, it is an all-in-one platform rather than a collection of disconnected utilities.',
       },
     ],
   },
@@ -78,9 +78,9 @@ const faqCategories: FAQCategory[] = [
     label: 'AI Tools',
     faqs: [
       {
-        question: 'What AI tools does MyAdsGuru offer?',
+        question: 'What AI tools does My Ads Guru offer?',
         answer:
-          'MyAdsGuru offers 18+ AI-powered tools organized into four categories: Reputation Management (review responder, Q&A responder, review insights), Content Generation (post automation, social media calendar, website content, brand voice, seasonal planner, bulk post generator), SEO & Strategy (business description optimizer, competitor intelligence, GeoGrid scanner, local SEO audit), and Advertising (Google Ads copy, email/SMS templates, FAQ generator).',
+          'My Ads Guru offers 18+ AI-powered tools organized into four categories: Reputation Management (review responder, Q&A responder, review insights), Content Generation (post automation, social media calendar, website content, brand voice, seasonal planner, bulk post generator), SEO & Strategy (business description optimizer, competitor intelligence, GeoGrid scanner, local SEO audit), and Advertising (Google Ads copy, email/SMS templates, FAQ generator).',
       },
       {
         question: 'How does the AI Review Response tool work?',
@@ -134,7 +134,7 @@ const faqCategories: FAQCategory[] = [
       {
         question: 'How does GeoGrid scanning work?',
         answer:
-          'You click on the map to place your scanning grid, choose a keyword (like "plumber near me"), select a grid size (5x5, 7x7, or 9x9), and set a scan radius. MyAdsGuru then simulates Google Maps searches from each grid point and records where your business ranks. The entire scan typically completes in under a minute.',
+          'You click on the map to place your scanning grid, choose a keyword (like "plumber near me"), select a grid size (5x5, 7x7, or 9x9), and set a scan radius. My Ads Guru then simulates Google Maps searches from each grid point and records where your business ranks. The entire scan typically completes in under a minute.',
       },
       {
         question: 'What do the colors on the GeoGrid heatmap mean?',
@@ -145,7 +145,7 @@ const faqCategories: FAQCategory[] = [
         question:
           'What grid sizes are available and how many credits do they cost?',
         answer:
-          'MyAdsGuru offers three grid sizes: 5x5 (25 scan points) for 5 credits, 7x7 (49 scan points) for 8 credits, and 9x9 (81 scan points) for 12 credits. Larger grids provide more granular data across your service area. All grid sizes include competitor analysis and quadrant breakdown at no additional cost.',
+          'My Ads Guru offers three grid sizes: 5x5 (25 scan points) for 5 credits, 7x7 (49 scan points) for 8 credits, and 9x9 (81 scan points) for 12 credits. Larger grids provide more granular data across your service area. All grid sizes include competitor analysis and quadrant breakdown at no additional cost.',
       },
       {
         question: 'How often should I run GeoGrid scans?',
@@ -166,12 +166,12 @@ const faqCategories: FAQCategory[] = [
       {
         question: 'How does the credit system work?',
         answer:
-          'MyAdsGuru uses a simple credit system. Each AI tool has a fixed credit cost displayed before you use it — for example, generating a review response costs 2 credits, while a competitor intelligence report costs 10 credits. Credits are deducted only when you run a tool, and you can always see your remaining balance on your dashboard.',
+          'My Ads Guru uses a simple credit system. Each AI tool has a fixed credit cost displayed before you use it — for example, generating a review response costs 2 credits, while a competitor intelligence report costs 10 credits. Credits are deducted only when you run a tool, and you can always see your remaining balance on your dashboard.',
       },
       {
         question: 'Do I get free credits when I sign up?',
         answer:
-          'Yes. Every new MyAdsGuru account receives 5 free credits immediately upon signup — no credit card required. This is enough to try several AI tools (like two review responses and a business description optimization) so you can experience the platform before deciding on a plan.',
+          'Yes. Every new My Ads Guru account receives 5 free credits immediately upon signup — no credit card required. This is enough to try several AI tools (like two review responses and a business description optimization) so you can experience the platform before deciding on a plan.',
       },
       {
         question: 'What happens when I run out of credits?',
@@ -182,17 +182,17 @@ const faqCategories: FAQCategory[] = [
         question:
           'Can I buy more credits without upgrading my plan?',
         answer:
-          'Yes. MyAdsGuru offers standalone credit packs that you can purchase anytime without changing your subscription plan. This is useful if you need a burst of credits for a specific project, like generating a full month of content or running multiple GeoGrid scans for a client presentation.',
+          'Yes. My Ads Guru offers standalone credit packs that you can purchase anytime without changing your subscription plan. This is useful if you need a burst of credits for a specific project, like generating a full month of content or running multiple GeoGrid scans for a client presentation.',
       },
       {
         question: 'What are the available pricing plans?',
         answer:
-          'MyAdsGuru offers tiered pricing plans designed for different business sizes. Each plan includes a monthly credit allocation, access to all AI tools, and GeoGrid scanning. Higher-tier plans include additional features like automated GBP post scheduling, priority support, and increased credit allowances. Visit our pricing page for the latest plan details and pricing.',
+          'My Ads Guru offers tiered pricing plans designed for different business sizes. Each plan includes a monthly credit allocation, access to all AI tools, and GeoGrid scanning. Higher-tier plans include additional features like automated GBP post scheduling, priority support, and increased credit allowances. Visit our pricing page for the latest plan details and pricing.',
       },
       {
         question: 'Is there a free trial?',
         answer:
-          'MyAdsGuru offers a free-to-start model rather than a time-limited trial. You get 5 free credits on signup with full access to all AI tools and the GeoGrid scanner. There is no expiration date on your free credits, so you can take your time exploring the platform at your own pace before committing to a paid plan.',
+          'My Ads Guru offers a free-to-start model rather than a time-limited trial. You get 5 free credits on signup with full access to all AI tools and the GeoGrid scanner. There is no expiration date on your free credits, so you can take your time exploring the platform at your own pace before committing to a paid plan.',
       },
     ],
   },
@@ -203,12 +203,12 @@ const faqCategories: FAQCategory[] = [
       {
         question: 'How do I create an account?',
         answer:
-          'Creating a MyAdsGuru account takes about 30 seconds. Click "Get Started Free" on our website, sign in with your Google account, and you are ready to go. We use Google OAuth for secure authentication, which also makes it easy to connect your Google Business Profile in the next step.',
+          'Creating a My Ads Guru account takes about 30 seconds. Click "Get Started Free" on our website, sign in with your Google account, and you are ready to go. We use Google OAuth for secure authentication, which also makes it easy to connect your Google Business Profile in the next step.',
       },
       {
         question: 'Is my business data secure?',
         answer:
-          'Yes. MyAdsGuru takes data security seriously. We use industry-standard encryption for all data in transit and at rest, authenticate exclusively through Google OAuth (we never store your Google password), and access only the Google Business Profile data necessary to power the AI tools. We do not sell or share your business data with third parties.',
+          'Yes. My Ads Guru takes data security seriously. We use industry-standard encryption for all data in transit and at rest, authenticate exclusively through Google OAuth (we never store your Google password), and access only the Google Business Profile data necessary to power the AI tools. We do not sell or share your business data with third parties.',
       },
       {
         question: 'Can I cancel my subscription anytime?',
@@ -443,7 +443,7 @@ export default function FAQsPageContent() {
             ref={heroSubRef}
             className="opacity-0 text-lg lg:text-xl text-zinc-400 leading-relaxed max-w-2xl mx-auto"
           >
-            Everything you need to know about MyAdsGuru, our AI tools,
+            Everything you need to know about My Ads Guru, our AI tools,
             GeoGrid rank scanning, pricing, and getting started. Can&apos;t
             find what you&apos;re looking for? Reach out to our team.
           </p>

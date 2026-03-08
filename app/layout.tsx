@@ -14,7 +14,7 @@ const sora = Sora({
 })
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'MyAdsGuru'
+  const title = 'My Ads Guru'
   const description =
     'Manage your Google Business Profile, create AI-powered posts, build citations, and grow your local presence. Consulting + platform by Himamshu Batra.'
 

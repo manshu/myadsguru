@@ -14,9 +14,9 @@ gsap.registerPlugin(ScrollTrigger)
 
 const faqs = [
   {
-    question: 'What is MyAdsGuru?',
+    question: 'What is My Ads Guru?',
     answer:
-      'MyAdsGuru combines hands-on consulting from Himamshu Batra with a powerful SaaS platform. You get access to a dashboard where you can manage your Google Business Profiles, create AI-powered posts, track reviews and Q&A, schedule content, and purchase marketing services like citation building and GMB optimization — all in one place.',
+      'My Ads Guru combines hands-on consulting from Himamshu Batra with a powerful SaaS platform. You get access to a dashboard where you can manage your Google Business Profiles, create AI-powered posts, track reviews and Q&A, schedule content, and purchase marketing services like citation building and GMB optimization — all in one place.',
   },
   {
     question: 'How much does the platform cost?',

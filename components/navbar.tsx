@@ -17,7 +17,7 @@ const navLinks = [
   { label: 'Features', href: '/features' },
   { label: 'GeoGrid', href: '/geogrid' },
   { label: 'Pricing', href: '/pricing' },
-  { label: 'Results', hash: '#case-studies' },
+  { label: 'Results', href: '/case-studies' },
   { label: 'FAQs', href: '/faqs' },
 ]
 

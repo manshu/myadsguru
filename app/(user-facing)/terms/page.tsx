@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'MyAdsGuru terms of service — rules and guidelines for using our platform.',
+  description: 'My Ads Guru terms of service — rules and guidelines for using our platform.',
 }
 
 export default function TermsOfService() {
@@ -16,7 +16,7 @@ export default function TermsOfService() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using MyAdsGuru ("the Service"), operated at <strong className="text-zinc-300">www.myads.guru</strong> and{' '}
+              By accessing or using My Ads Guru ("the Service"), operated at <strong className="text-zinc-300">www.myads.guru</strong> and{' '}
               <strong className="text-zinc-300">app.myads.guru</strong>, you agree to be bound by these Terms of Service. If you
               do not agree, please do not use the Service.
             </p>
@@ -25,7 +25,7 @@ export default function TermsOfService() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">2. Description of Service</h2>
             <p>
-              MyAdsGuru is an AI-powered local marketing platform that enables businesses to manage their Google
+              My Ads Guru is an AI-powered local marketing platform that enables businesses to manage their Google
               Business Profile, create AI-generated posts, respond to reviews, build local citations, and manage
               Google Ads campaigns. The platform connects to Google APIs with your explicit authorization.
             </p>
@@ -43,7 +43,7 @@ export default function TermsOfService() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">4. Google API Integration</h2>
             <p>
-              By connecting your Google account, you authorize MyAdsGuru to access and manage your Google Business
+              By connecting your Google account, you authorize My Ads Guru to access and manage your Google Business
               Profile and Google Ads data as described in our Privacy Policy. You can revoke this access at any
               time through your Google account settings.
             </p>
@@ -57,14 +57,14 @@ export default function TermsOfService() {
               <li>Attempt to gain unauthorized access to the Service or its systems.</li>
               <li>Use the Service to spam, harass, or distribute malicious content.</li>
               <li>Resell or redistribute the Service without authorization.</li>
-              <li>Violate Google's Terms of Service or API policies through your use of MyAdsGuru.</li>
+              <li>Violate Google's Terms of Service or API policies through your use of My Ads Guru.</li>
             </ul>
           </div>
 
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">6. AI-Generated Content</h2>
             <p>
-              MyAdsGuru uses AI to generate post content and marketing materials. While we strive for accuracy,
+              My Ads Guru uses AI to generate post content and marketing materials. While we strive for accuracy,
               AI-generated content may contain errors. You are responsible for reviewing and approving all content
               before it is published to your Google Business Profile or other platforms.
             </p>
@@ -82,7 +82,7 @@ export default function TermsOfService() {
           <div>
             <h2 className="text-lg font-semibold text-white mb-3">8. Limitation of Liability</h2>
             <p>
-              MyAdsGuru is provided "as is" without warranties of any kind. We are not liable for any indirect,
+              My Ads Guru is provided "as is" without warranties of any kind. We are not liable for any indirect,
               incidental, or consequential damages arising from your use of the Service, including but not limited
               to loss of data, revenue, or business opportunities.
             </p>

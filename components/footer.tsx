@@ -11,7 +11,7 @@ const productLinks = [
 ]
 
 const companyLinks = [
-  { label: 'Results', href: '/#case-studies' },
+  { label: 'Results', href: '/case-studies' },
   { label: 'FAQs', href: '/faqs' },
   { label: 'Login', href: 'https://app.myads.guru', external: true },
   { label: 'Sign Up', href: 'https://app.myads.guru/auth/register', external: true },
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-600">
-            &copy; {new Date().getFullYear()} MyAdsGuru by Himamshu Batra. All rights reserved.
+            &copy; {new Date().getFullYear()} My Ads Guru by Himamshu Batra. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="text-sm text-zinc-600 hover:text-zinc-400 transition-colors">

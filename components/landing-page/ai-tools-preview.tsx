@@ -129,7 +129,7 @@ export default function AIToolsPreview() {
                 <div className="w-3 h-3 rounded-full bg-green-500/60" />
               </div>
               <span className="text-xs text-zinc-500 ml-2 font-mono">
-                MyAdsGuru AI — {current.title}
+                MyAds.Guru AI — {current.title}
               </span>
             </div>
 

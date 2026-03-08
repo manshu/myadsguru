@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const testimonials = [
   {
     quote:
-      'Himamshu turned our Google Ads around in just a month. But what really sets him apart is the MyAdsGuru platform — we manage all our Google Business Profiles, schedule posts, and track reviews from one place. The combination of his consulting and the platform is unbeatable.',
+      'Himamshu turned our Google Ads around in just a month. But what really sets him apart is the MyAds.Guru platform — we manage all our Google Business Profiles, schedule posts, and track reviews from one place. The combination of his consulting and the platform is unbeatable.',
     name: 'Alex Johnson',
     role: 'CEO & Founder',
     company: 'TechScale',
@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     quote:
-      'Managing 12 business locations used to be a nightmare. With MyAdsGuru, we imported everything from Google, and now we handle reviews, Q&A, and posts for all locations in one dashboard. The citation building service boosted our local rankings significantly.',
+      'Managing 12 business locations used to be a nightmare. With MyAds.Guru, we imported everything from Google, and now we handle reviews, Q&A, and posts for all locations in one dashboard. The citation building service boosted our local rankings significantly.',
     name: 'David Park',
     role: 'VP of Marketing',
     company: 'LaunchPad',
