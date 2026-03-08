@@ -70,7 +70,7 @@ export default function Hero() {
             <div ref={badgeRef} className="opacity-0 mb-6">
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-                Google Business Profile &amp; Digital Marketing
+                AI-Powered Local Marketing Platform
               </span>
             </div>
 
@@ -78,38 +78,38 @@ export default function Hero() {
               ref={headlineRef}
               className="opacity-0 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight mb-6"
             >
-              I help businesses{' '}
-              <span className="gradient-text">dominate local search</span>
+              AI-Powered Local Marketing{' '}
+              <span className="gradient-text">That Actually Works</span>
             </h1>
 
             <p
               ref={subtextRef}
               className="opacity-0 text-lg text-zinc-400 leading-relaxed mb-8 max-w-xl"
             >
-              Hey, I&apos;m Himamshu Batra. I combine hands-on consulting
-              with the MyAdsGuru platform — giving you Google Business Profile
-              management, AI-powered post creation, citation building, and
-              everything you need to grow your local presence. One dashboard,
-              full control.
+              15+ AI tools pre-loaded with your business data. Auto-generate
+              Google posts, respond to reviews instantly, optimize your profile,
+              and outrank competitors — all from one dashboard. Start with 5
+              free credits.
             </p>
 
             <div ref={ctaRef} className="opacity-0 flex flex-col sm:flex-row gap-4">
-              <Button
-                onClick={openCalendly}
-                className="bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-6 rounded-lg text-base transition-all duration-200 hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] group"
-              >
-                Book a Free Audit
-                <ArrowRight
-                  size={18}
-                  className="ml-2 group-hover:translate-x-1 transition-transform"
-                />
-              </Button>
-              <Link href="#case-studies">
+              <Link href="https://app.myads.guru/auth/register" target="_blank" rel="noopener noreferrer">
+                <Button
+                  className="bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-6 rounded-lg text-base transition-all duration-200 hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] group"
+                >
+                  Get Started Free
+                  <ArrowRight
+                    size={18}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </Button>
+              </Link>
+              <Link href="/features">
                 <Button
                   variant="outline"
                   className="border-white/10 bg-white/5 text-zinc-300 hover:bg-white/10 hover:text-white font-medium px-8 py-6 rounded-lg text-base transition-all duration-200"
                 >
-                  See Results
+                  See AI Tools
                 </Button>
               </Link>
             </div>

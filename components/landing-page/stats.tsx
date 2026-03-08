@@ -7,9 +7,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
-  { value: '12+', label: 'Years Experience' },
+  { value: '15+', label: 'AI Tools' },
   { value: '50+', label: 'Countries Covered' },
-  { value: 'AI', label: 'Powered Posts' },
+  { value: '12+', label: 'Years Experience' },
   { value: '$10M+', label: 'Ad Spend Managed' },
 ]
 

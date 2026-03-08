@@ -9,21 +9,21 @@ gsap.registerPlugin(ScrollTrigger)
 const steps = [
   {
     number: '01',
-    title: 'Connect & Import',
+    title: 'Connect Your Business',
     description:
-      'Sign up with Google and import your existing businesses from Google Business Profile, or create new ones manually. We automatically sync your reviews, Q&A, photos, and business data into the MyAdsGuru dashboard.',
+      'Import your Google Business Profile in one click. We automatically sync your reviews, Q&A, photos, hours, and business data — giving our AI the context it needs to generate perfect content.',
   },
   {
     number: '02',
-    title: 'Manage & Create',
+    title: 'AI Does the Work',
     description:
-      'Use the dashboard to manage your business profiles, create AI-powered posts, schedule content on the calendar, and respond to customer reviews. Purchase citation building, GMB optimization, or conversion tracking services from the built-in marketplace.',
+      'Our AI generates posts, responds to reviews, optimizes your description, and creates marketing content — all pre-loaded with your actual business data. Use credits for one-off tools or subscribe for full automation.',
   },
   {
     number: '03',
-    title: 'Grow & Optimize',
+    title: 'Watch Your Business Grow',
     description:
-      'As your consultant, I work alongside the platform to optimize your strategy. Whether it is improving your local SEO rankings, refining your Google Ads campaigns, or scaling across multiple locations — you get hands-on support plus the tools to manage it all.',
+      'Track results as customers find you. More reviews get professional responses, your profile stays active with fresh posts, and your local SEO improves — all on autopilot or with one-click AI tools.',
   },
 ]
 

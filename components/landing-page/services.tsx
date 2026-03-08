@@ -1,30 +1,49 @@
 'use client'
 
 import { useEffect, useRef, useCallback } from 'react'
+import Link from 'next/link'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { MapPin, Sparkles, Search } from 'lucide-react'
+import { MessageSquare, Zap, Search, MapPin, FileText, Calendar } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const services = [
   {
-    icon: MapPin,
-    title: 'Google Business Profile Management',
+    icon: MessageSquare,
+    title: 'AI Review Responder',
     description:
-      'Import your businesses from Google or create them manually. Manage profiles, respond to reviews, handle Q&A, update working hours, and keep your business information accurate — all from the MyAdsGuru dashboard.',
+      'Respond to every Google review in seconds. Empathetic for negatives, warm for positives — powered by your actual business data.',
   },
   {
-    icon: Sparkles,
-    title: 'AI-Powered Post Creation',
+    icon: Zap,
+    title: 'AI GBP Post Automation',
     description:
-      'Create and schedule Google Business posts with AI-generated content. Publish standard updates, events, offers, and alerts. Use the built-in calendar to plan your content and keep customers engaged.',
+      'Auto-publish engaging posts to your Google Business Profile weekly. AI generates content from your business category and seasonal trends.',
   },
   {
     icon: Search,
-    title: 'Citation Building & Local SEO',
+    title: 'AI Competitor Intelligence',
     description:
-      'Build and maintain consistent business listings across directories in 50+ countries. Purchase citation building, GMB optimization, and conversion tracking services directly from the platform to boost your local rankings.',
+      'Know exactly how to outrank competitors. Get positioning strategies, keyword recommendations, and actionable market insights.',
+  },
+  {
+    icon: MapPin,
+    title: 'Citation Building',
+    description:
+      'Get listed on 300+ directories across 50+ countries. Build consistent NAP citations that boost your local search rankings.',
+  },
+  {
+    icon: FileText,
+    title: 'AI Business Optimizer',
+    description:
+      'Perfect your GBP description and keywords. Get an SEO-optimized 750-character description, 10 keywords, and short name suggestion.',
+  },
+  {
+    icon: Calendar,
+    title: 'AI Content Calendar',
+    description:
+      '30 days of social content, generated instantly. Captions, hashtags, optimal posting times, and post types tailored to your business.',
   },
 ]
 
@@ -65,7 +84,7 @@ export default function Services() {
           opacity: 1,
           y: 0,
           duration: 0.7,
-          stagger: 0.15,
+          stagger: 0.1,
           ease: 'power2.out',
           scrollTrigger: {
             trigger: sectionRef.current,
@@ -91,15 +110,15 @@ export default function Services() {
         {/* Section heading */}
         <div ref={titleRef} className="opacity-0 text-center mb-16">
           <p className="text-sm font-medium text-blue-400 uppercase tracking-widest mb-3">
-            Platform + Consulting
+            AI-Powered Tools
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            What You Get
+            Everything You Need to Grow Locally
           </h2>
         </div>
 
-        {/* Service cards grid */}
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        {/* Service cards grid — 2 rows of 3 */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, index) => (
             <div
               key={service.title}
@@ -124,9 +143,16 @@ export default function Services() {
                 </h3>
 
                 {/* Description */}
-                <p className="text-zinc-400 leading-relaxed text-sm">
+                <p className="text-zinc-400 leading-relaxed text-sm mb-4">
                   {service.description}
                 </p>
+
+                <Link
+                  href="/features"
+                  className="text-sm text-blue-400 hover:text-blue-300 transition-colors duration-200 inline-flex items-center gap-1"
+                >
+                  Learn More →
+                </Link>
               </div>
             </div>
           ))}

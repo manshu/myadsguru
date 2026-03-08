@@ -14,8 +14,8 @@ import { Button } from '@/components/ui/button'
 import { useCalendly } from '@/components/calendly-modal'
 
 const navLinks = [
-  { label: 'Services', hash: '#services' },
-  { label: 'Process', hash: '#how-i-do-things' },
+  { label: 'Features', href: '/features' },
+  { label: 'Pricing', href: '/pricing' },
   { label: 'Results', hash: '#case-studies' },
   { label: 'FAQs', hash: '#faqs' },
 ]
@@ -29,8 +29,10 @@ export default function Navbar() {
 
   const isHomePage = pathname === '/'
 
-  const getHref = (hash: string) => {
-    return isHomePage ? hash : `/${hash}`
+  const getHref = (link: typeof navLinks[0]) => {
+    if (link.href) return link.href
+    if (link.hash) return isHomePage ? link.hash : `/${link.hash}`
+    return '/'
   }
 
   useEffect(() => {
@@ -43,16 +45,22 @@ export default function Navbar() {
 
   const handleNavClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    hash: string
+    link: typeof navLinks[0]
   ) => {
+    if (link.href) {
+      // Regular page link — let Next.js handle it
+      setIsSheetOpen(false)
+      return
+    }
+    // Hash link
     e.preventDefault()
-    if (isHomePage) {
-      const element = document.querySelector(hash)
+    if (isHomePage && link.hash) {
+      const element = document.querySelector(link.hash)
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' })
       }
-    } else {
-      router.push(`/${hash.substring(1)}`)
+    } else if (link.hash) {
+      router.push(`/${link.hash.substring(1)}`)
     }
     setIsSheetOpen(false)
   }
@@ -79,10 +87,10 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
-                key={link.hash}
-                href={getHref(link.hash)}
+                key={link.label}
+                href={getHref(link)}
                 className="text-sm text-zinc-400 hover:text-white transition-colors duration-200"
-                onClick={(e) => handleNavClick(e, link.hash)}
+                onClick={(e) => handleNavClick(e, link)}
               >
                 {link.label}
               </Link>
@@ -139,10 +147,10 @@ export default function Navbar() {
                 <div className="flex flex-col gap-6">
                   {navLinks.map((link) => (
                     <Link
-                      key={link.hash}
-                      href={getHref(link.hash)}
+                      key={link.label}
+                      href={getHref(link)}
                       className="text-lg text-zinc-400 hover:text-white transition-colors duration-200"
-                      onClick={(e) => handleNavClick(e, link.hash)}
+                      onClick={(e) => handleNavClick(e, link)}
                     >
                       {link.label}
                     </Link>

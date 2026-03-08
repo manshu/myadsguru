@@ -3,14 +3,13 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
-import { useCalendly } from '@/components/calendly-modal'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function CTA() {
-  const { open: openCalendly } = useCalendly()
   const sectionRef = useRef<HTMLElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
 
@@ -54,30 +53,31 @@ export default function CTA() {
         className="opacity-0 relative z-10 max-w-3xl mx-auto px-6 lg:px-8 text-center"
       >
         <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Ready to{' '}
-          <span className="gradient-text">grow locally</span>?
+          Start with{' '}
+          <span className="gradient-text">5 Free Credits</span>
         </h2>
 
         <p className="text-lg text-zinc-400 mb-10 max-w-xl mx-auto leading-relaxed">
-          Get the platform and the consulting. Manage your Google Business
-          Profile, create AI-powered posts, and boost your local SEO — all
-          starting at $6.99/month.
+          Sign up and get 5 free AI credits to try our tools. Generate review
+          responses, optimize your business description, or answer Q&A — no
+          credit card required.
         </p>
 
         {/* CTA button */}
-        <Button
-          onClick={openCalendly}
-          className="bg-blue-600 hover:bg-blue-500 text-white font-medium px-10 py-6 rounded-lg text-base transition-all duration-200 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] group"
-        >
-          Get Started
-          <ArrowRight
-            size={18}
-            className="ml-2 group-hover:translate-x-1 transition-transform"
-          />
-        </Button>
+        <Link href="https://app.myads.guru/auth/register" target="_blank" rel="noopener noreferrer">
+          <Button
+            className="bg-blue-600 hover:bg-blue-500 text-white font-medium px-10 py-6 rounded-lg text-base transition-all duration-200 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] group"
+          >
+            Get Started Free
+            <ArrowRight
+              size={18}
+              className="ml-2 group-hover:translate-x-1 transition-transform"
+            />
+          </Button>
+        </Link>
 
         <p className="text-sm text-zinc-600 mt-8">
-          No credit card required. Free 14-day trial.
+          No credit card required. 5 free credits included.
         </p>
       </div>
     </section>
