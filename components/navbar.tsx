@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
-import { usePathname, useRouter } from 'next/navigation'
+
 import {
   Sheet,
   SheetContent,
@@ -25,17 +25,6 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isSheetOpen, setIsSheetOpen] = useState(false)
   const { open: openCalendly } = useCalendly()
-  const pathname = usePathname()
-  const router = useRouter()
-
-  const isHomePage = pathname === '/'
-
-  const getHref = (link: typeof navLinks[0]) => {
-    if (link.href) return link.href
-    if (link.hash) return isHomePage ? link.hash : `/${link.hash}`
-    return '/'
-  }
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
@@ -43,28 +32,6 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
-  const handleNavClick = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    link: typeof navLinks[0]
-  ) => {
-    if (link.href) {
-      // Regular page link — let Next.js handle it
-      setIsSheetOpen(false)
-      return
-    }
-    // Hash link
-    e.preventDefault()
-    if (isHomePage && link.hash) {
-      const element = document.querySelector(link.hash)
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
-      }
-    } else if (link.hash) {
-      router.push(`/${link.hash.substring(1)}`)
-    }
-    setIsSheetOpen(false)
-  }
 
   return (
     <header
@@ -89,9 +56,8 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <Link
                 key={link.label}
-                href={getHref(link)}
+                href={link.href}
                 className="text-sm text-zinc-400 hover:text-white transition-colors duration-200"
-                onClick={(e) => handleNavClick(e, link)}
               >
                 {link.label}
               </Link>
@@ -149,9 +115,9 @@ export default function Navbar() {
                   {navLinks.map((link) => (
                     <Link
                       key={link.label}
-                      href={getHref(link)}
+                      href={link.href}
                       className="text-lg text-zinc-400 hover:text-white transition-colors duration-200"
-                      onClick={(e) => handleNavClick(e, link)}
+                      onClick={() => setIsSheetOpen(false)}
                     >
                       {link.label}
                     </Link>
