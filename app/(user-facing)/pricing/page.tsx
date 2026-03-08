@@ -50,6 +50,13 @@ const creditTools: CreditTool[] = [
   { name: 'Google Ads Copy', credits: 5 },
   { name: 'Website Content', credits: 8 },
   { name: 'Email Templates', credits: 3 },
+  { name: 'Brand Voice', credits: 5 },
+  { name: 'Seasonal Planner', credits: 5 },
+  { name: 'FAQ Generator', credits: 3 },
+  { name: 'GeoGrid Scan (5×5)', credits: 5 },
+  { name: 'GeoGrid Scan (7×7)', credits: 8 },
+  { name: 'GeoGrid Scan (9×9)', credits: 12 },
+  { name: 'Bulk Post (per post)', credits: 1 },
 ]
 
 interface SubscriptionPlan {

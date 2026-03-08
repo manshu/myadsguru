@@ -4,7 +4,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { MessageSquare, Zap, Search, MapPin, FileText, Calendar } from 'lucide-react'
+import { MessageSquare, Zap, Search, MapPin, FileText, Calendar, Grid3X3 } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -34,10 +34,10 @@ const services = [
       'Get listed on 300+ directories across 50+ countries. Build consistent NAP citations that boost your local search rankings.',
   },
   {
-    icon: FileText,
-    title: 'AI Business Optimizer',
+    icon: Grid3X3,
+    title: 'GeoGrid Rank Scanner',
     description:
-      'Perfect your GBP description and keywords. Get an SEO-optimized 750-character description, 10 keywords, and short name suggestion.',
+      'See exactly where you rank on Google Maps across your entire service area. Color-coded heatmap grid with competitor analysis at every point.',
   },
   {
     icon: Calendar,

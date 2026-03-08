@@ -15,9 +15,10 @@ import { useCalendly } from '@/components/calendly-modal'
 
 const navLinks = [
   { label: 'Features', href: '/features' },
+  { label: 'GeoGrid', href: '/geogrid' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Results', hash: '#case-studies' },
-  { label: 'FAQs', hash: '#faqs' },
+  { label: 'FAQs', href: '/faqs' },
 ]
 
 export default function Navbar() {

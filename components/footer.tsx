@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 const productLinks = [
   { label: 'AI Tools', href: '/features' },
+  { label: 'GeoGrid Scanner', href: '/geogrid' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'GBP Management', href: '/features' },
   { label: 'Citation Building', href: '/features' },
@@ -11,7 +12,7 @@ const productLinks = [
 
 const companyLinks = [
   { label: 'Results', href: '/#case-studies' },
-  { label: 'FAQs', href: '/#faqs' },
+  { label: 'FAQs', href: '/faqs' },
   { label: 'Login', href: 'https://app.myads.guru', external: true },
   { label: 'Sign Up', href: 'https://app.myads.guru/auth/register', external: true },
 ]

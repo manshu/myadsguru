@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Sparkles, MessageSquare, FileText, Search } from 'lucide-react'
+import { Sparkles, MessageSquare, FileText, Search, Grid3X3 } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -25,6 +25,12 @@ const examples = [
     title: 'Competitor Insight',
     input: 'Category: HVAC Services, Austin TX',
     output: `Your top 3 competitors focus heavily on "emergency AC repair" keywords but underserve the commercial HVAC segment. Opportunity: Target "commercial HVAC Austin" (890 monthly searches, low competition). Differentiate with same-day service guarantees — only 1 of 5 competitors offers this. Recommended seasonal push: pre-summer AC tune-up packages in March-April.`,
+  },
+  {
+    icon: Grid3X3,
+    title: 'GeoGrid Scan',
+    input: 'Keyword: "barber shop" — 7×7 Grid, 5 mi radius, Woodbridge VA',
+    output: `Scan complete: 49 grid points analyzed. Average rank: #8.4. Top 3 positions: 12/49 (24%). Visibility score: 84%. Strongest area: Southeast (avg #5.2). Weakest area: Northwest (avg #14.1). Top competitor: "Brothers Barbershop" seen at 45 points (avg #1.9). Recommendation: Focus local SEO efforts toward the Northwest — you're virtually invisible there but dominating the Southeast.`,
   },
 ]
 

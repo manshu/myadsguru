@@ -21,6 +21,10 @@ import {
   Wrench,
   Sparkles,
   ArrowRight,
+  Grid3X3,
+  Mic,
+  Sun,
+  Layers,
   type LucideIcon,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -104,6 +108,30 @@ const categories: ToolCategory[] = [
         cost: '8 credits',
         costVariant: 'blue',
       },
+      {
+        icon: Mic,
+        name: 'AI Brand Voice',
+        description:
+          'Analyze your business and generate a consistent brand voice guide — tone, personality, and messaging pillars.',
+        cost: '5 credits',
+        costVariant: 'blue',
+      },
+      {
+        icon: Sun,
+        name: 'AI Seasonal Planner',
+        description:
+          'Get a full seasonal marketing plan with campaign ideas, promotions, and content themes tailored to your business category.',
+        cost: '5 credits',
+        costVariant: 'blue',
+      },
+      {
+        icon: Layers,
+        name: 'AI Bulk Post Generator',
+        description:
+          'Generate multiple GBP posts at once — pick a count and get ready-to-publish posts with images, captions, and CTAs.',
+        cost: '1 credit/post',
+        costVariant: 'blue',
+      },
     ],
   },
   {
@@ -124,6 +152,14 @@ const categories: ToolCategory[] = [
         description:
           'Positioning strategies, service differentiators, keyword recommendations for your market.',
         cost: '10 credits',
+        costVariant: 'blue',
+      },
+      {
+        icon: Grid3X3,
+        name: 'GeoGrid Rank Scanner',
+        description:
+          'See where you rank on Google Maps across your service area. Color-coded heatmap with competitor analysis at every grid point.',
+        cost: '5-12 credits',
         costVariant: 'blue',
       },
       {
@@ -181,7 +217,7 @@ const steps = [
     icon: Wrench,
     title: 'Choose Your Tool',
     description:
-      'Pick from 15+ AI tools organized by category — reputation management, content generation, SEO strategy, or advertising.',
+      'Pick from 18+ AI tools organized by category — reputation management, content generation, SEO strategy, or advertising.',
   },
   {
     number: '03',
@@ -422,7 +458,7 @@ export default function FeaturesPage() {
           <div ref={heroBadgeRef} className="opacity-0 mb-6">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-              15+ AI-Powered Tools
+              18+ AI-Powered Tools
             </span>
           </div>
 

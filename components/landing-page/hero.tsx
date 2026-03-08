@@ -86,7 +86,7 @@ export default function Hero() {
               ref={subtextRef}
               className="opacity-0 text-lg text-zinc-400 leading-relaxed mb-8 max-w-xl"
             >
-              15+ AI tools pre-loaded with your business data. Auto-generate
+              18+ AI tools pre-loaded with your business data. Auto-generate
               Google posts, respond to reviews instantly, optimize your profile,
               and outrank competitors — all from one dashboard. Start with 5
               free credits.
