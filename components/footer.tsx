@@ -11,6 +11,7 @@ const productLinks = [
 ]
 
 const companyLinks = [
+  { label: 'About Us', href: '/about' },
   { label: 'Results', href: '/case-studies' },
   { label: 'FAQs', href: '/faqs' },
   { label: 'Login', href: 'https://app.myads.guru', external: true },
@@ -38,6 +39,16 @@ export default function Footer() {
             <p className="mt-4 text-sm text-zinc-500 leading-relaxed">
               AI-powered local marketing platform. Manage your Google Business Profile, automate posts, respond to reviews, and grow your local presence.
             </p>
+            <div className="mt-4 text-sm text-zinc-600 leading-relaxed">
+              <p>Sphnix, Inc.</p>
+              <p>15833 Ibsen Pl</p>
+              <p>Dumfries, VA 22025</p>
+              <p className="mt-1">
+                <a href="mailto:hello@myads.guru" className="hover:text-zinc-400 transition-colors">
+                  hello@myads.guru
+                </a>
+              </p>
+            </div>
           </div>
 
           {/* Product */}
@@ -115,7 +126,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-600">
-            &copy; {new Date().getFullYear()} My Ads Guru by Himamshu Batra. All rights reserved.
+            &copy; {new Date().getFullYear()} My Ads Guru by Sphnix, Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="text-sm text-zinc-600 hover:text-zinc-400 transition-colors">
