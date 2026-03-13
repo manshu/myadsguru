@@ -4,7 +4,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { MessageSquare, Zap, Search, MapPin, FileText, Calendar, Grid3X3, Gauge } from 'lucide-react'
+import { MessageSquare, Zap, Search, MapPin, FileText, Calendar, Grid3X3, Gauge, BarChart3 } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -50,6 +50,12 @@ const services = [
     title: 'PageSpeed Insights',
     description:
       'Analyze any website\'s performance, Core Web Vitals, and SEO scores. Get a detailed report with optimization opportunities and a printable branded PDF.',
+  },
+  {
+    icon: BarChart3,
+    title: 'GA4 Analytics Dashboard',
+    description:
+      'Import your Google Analytics 4 data and visualize traffic, top pages, traffic sources, device breakdown, and trends with beautiful charts.',
   },
 ]
 

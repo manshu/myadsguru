@@ -172,6 +172,14 @@ const categories: ToolCategory[] = [
         costVariant: 'green',
       },
       {
+        icon: BarChart3,
+        name: 'GA4 Analytics Dashboard',
+        description:
+          'Connect your Google Analytics 4 property and visualize traffic trends, top pages, traffic sources, device breakdown, and key metrics — all with period-over-period comparisons.',
+        cost: 'Free',
+        costVariant: 'green',
+      },
+      {
         icon: CheckCircle,
         name: 'AI Local SEO Audit',
         description:
