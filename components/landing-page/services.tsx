@@ -4,7 +4,7 @@ import { useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { MessageSquare, Zap, Search, MapPin, FileText, Calendar, Grid3X3 } from 'lucide-react'
+import { MessageSquare, Zap, Search, MapPin, FileText, Calendar, Grid3X3, Gauge } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -44,6 +44,12 @@ const services = [
     title: 'AI Content Calendar',
     description:
       '30 days of social content, generated instantly. Captions, hashtags, optimal posting times, and post types tailored to your business.',
+  },
+  {
+    icon: Gauge,
+    title: 'PageSpeed Insights',
+    description:
+      'Analyze any website\'s performance, Core Web Vitals, and SEO scores. Get a detailed report with optimization opportunities and a printable branded PDF.',
   },
 ]
 

@@ -13,6 +13,7 @@ import {
   Globe,
   FileText,
   Search,
+  Gauge,
   CheckCircle,
   Megaphone,
   Mail,
@@ -161,6 +162,14 @@ const categories: ToolCategory[] = [
           'See where you rank on Google Maps across your service area. Color-coded heatmap with competitor analysis at every grid point.',
         cost: '5-12 credits',
         costVariant: 'blue',
+      },
+      {
+        icon: Gauge,
+        name: 'PageSpeed Insights',
+        description:
+          'Analyze any website\'s performance, accessibility, SEO, and best practices. Get Lighthouse scores, Core Web Vitals, resource breakdown, and actionable optimization opportunities with a shareable branded report.',
+        cost: 'Free',
+        costVariant: 'green',
       },
       {
         icon: CheckCircle,
