@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter, Sora } from 'next/font/google'
 import { Metadata } from 'next'
 import type { Viewport } from 'next'
+import Script from 'next/script'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -47,6 +48,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LWDRVFBR6S"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LWDRVFBR6S');
+          `}
+        </Script>
+      </head>
       <body
         className={`${inter.variable} ${sora.variable} font-sans overflow-x-hidden antialiased`}
       >
