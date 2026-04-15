@@ -21,6 +21,7 @@ const companyLinks = [
 const legalLinks = [
   { label: 'Privacy Policy', href: '/privacy-policy' },
   { label: 'Terms of Service', href: '/terms' },
+  { label: 'Third-Party Disclosure', href: '/third-party-disclosure' },
 ]
 
 export default function Footer() {
@@ -134,6 +135,9 @@ export default function Footer() {
             </Link>
             <Link href="/terms" className="text-sm text-zinc-600 hover:text-zinc-400 transition-colors">
               Terms of Service
+            </Link>
+            <Link href="/third-party-disclosure" className="text-sm text-zinc-600 hover:text-zinc-400 transition-colors">
+              Third-Party Disclosure
             </Link>
           </div>
         </div>
