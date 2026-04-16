@@ -7,7 +7,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const country = request.headers.get("x-vercel-ip-country") || "UNKNOWN";
+  // CF-IPCountry is the real user's country when traffic goes through Cloudflare proxy.
+  // x-vercel-ip-country can be wrong because Vercel sees Cloudflare's edge IP.
+  const country =
+    request.headers.get("cf-ipcountry") ||
+    request.headers.get("x-vercel-ip-country") ||
+    "UNKNOWN";
 
   if (!ALLOWED_COUNTRIES.includes(country)) {
     return NextResponse.rewrite(new URL("/blocked", request.url));
